@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Five Star Express Car Wash</title>
+    <meta name="keywords" content="five, star, express, car, wash, carwash">
+    <meta name="description" content="Top quality brushless car wash services in five minutes.">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="../styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+      function formsubmit(){
+        if (/\S+/.test(document.emailform.realname.value) == false) alert ("Please provide your name.");
+        else if (/^\S+@[a-z0-9_.-]+\.[a-z]{2,6}$/i.test(document.emailform.email.value) == false) alert ("A valid email address is required.");
+        else if (/\S+/.test(document.emailform.comments.value) == false) alert ("Your email content is needed.");
+        else {
+          document.emailform.submit();
+          alert ('Thank you!\nYour email is sent.');
+        }
+      }
+    </script>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-37166629-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </head>
+  <body>
+    <div class='header'>
+      <div class='centeredHeader'>
+        <a href='http://www.fivestarecw.com/'><img id='logo' src='../logo.png' /></a>
+        <ul id='menu'>
+          <li>
+            <a href='../about'>ABOUT</a>
+          </li>
+          <li>
+            <a href='../services'>SERVICES</a>
+          </li>
+          <li>
+            <a href='../gallery'>GALLERY</a>
+          </li>
+          <li>
+            <a href='#'>CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class='divider'>
+    </div>
+    <div class='main mainContact'>
+      <div class='content contentContact'>
+        <div class='clearContact'></div>
+        <div class='locations'>
+          <h5>12245 Carson St.</h5>
+          <h5>Hawaiian Gardens, CA</h5>
+          <h5>Phone: (562) 865-6699</h5>
+          <iframe width="400" height="295" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=12245+Carson+St.+Hawaiian+Gardens,+CA&amp;aq=&amp;sll=32.824552,-117.108978&amp;sspn=0.623173,1.237335&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=12245+Carson+St,+Hawaiian+Gardens,+California+90716&amp;ll=33.831752,-118.070274&amp;spn=0.009625,0.019097&amp;z=14&amp;output=embed"></iframe>
+        </div>
+        <div class='locations'>
+          <h5>2167 Harbor Blvd.</h5>
+          <h5>Costa Mesa, CA</h5>
+          <iframe width="400" height="295" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=2167+Harbor+Blvd.+Costa+Mesa,+CA&amp;aq=&amp;sll=32.837896,-116.977615&amp;sspn=0.009934,0.021136&amp;ie=UTF8&amp;hq=&amp;hnear=2167+Harbor+Blvd,+Costa+Mesa,+Orange,+California+92627&amp;t=m&amp;ll=33.65328,-117.919607&amp;spn=0.021434,0.023947&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+        </div>
+        <div class='clear'></div>
+        <form action="http://formmail.dreamhost.com/cgi-bin/formmail.cgi" method="POST" name="emailform" class='emailForm'>
+          <input type="hidden" name="recipient" value="admin@fivestarecw.com">  
+          To send us an email, please complete the form below:<br><br>
+          Subject: <br><input type="text" name="subject" size="75" value=""><br>
+          Name: <br><input type="text" name="realname" size="75" value=""><br>
+          E-mail: <br><input type="text" name="email" size="75" value=""><br>
+          Comments: <br> 
+          <textarea id='commentText' name="comments" cols="50" rows="10"></textarea><br><br>
+          <input type="button" value="Submit" class="submitButton" onclick="formsubmit();">
+          <input type="hidden" name="redirect" value="http://fivestarecw.com/">
+        </form>
+      </div>
+    </div>
+    <div class='footer'>Copyright &copy; 2012 <strong>Five Star Car Wash</strong>
+    </div>
+  </body>
+</html>
