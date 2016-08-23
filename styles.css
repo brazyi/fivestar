@@ -95,6 +95,12 @@ a:hover {
   font-size: 18px;
   text-align: center;
 }
+.Services-footnote {
+  color: #222;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 65px;
+}
 .content {
   width: 900px;
   height: 640px;
@@ -169,7 +175,6 @@ hr {
 	width: 677px;
 	float: left;
 	margin-left: 110px;
-	margin-bottom: 80px;
 	font-size: 30px;
 }
 
@@ -336,7 +341,7 @@ gallery styles
 	line-height:0px;
 	height: 426px;
 	width: 760px;
-  display: table-cell; 
+  display: table-cell;
   vertical-align: middle;
 	text-align: center;
 }
@@ -638,4 +643,3 @@ index styles
   text-align: center;
   font-size: 24px;
 }
-
