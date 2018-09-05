@@ -69,7 +69,7 @@ a:hover {
 .main {
   height: 1200px;
   font-size: 10px;
-  padding-top: 20px;
+  padding: 20px 0;
 }
 .mainIndex {
   padding-top: 0;
