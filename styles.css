@@ -85,7 +85,7 @@ a:hover {
   height: 610px;
 }
 .mainServices {
-  height: 675px;
+  height: 850px;
 }
 .Services-openHours-first {
   margin-top: 40px;
@@ -172,14 +172,14 @@ hr {
   color: #000;
 }
 #plans {
-	width: 677px;
+	width: 808px;
 	float: left;
-	margin-left: 110px;
+	margin-left: 45px;
 	font-size: 30px;
 }
 
 .row {
-	width: 677px;
+	width: 808px;
 	height: 65px;
 	float: left;
 	border-bottom: 1px solid #e0e0e0;
@@ -196,6 +196,10 @@ hr {
 	text-align: right;
 	line-height: 65px;
 	color: #222;
+}
+
+.row .font-small {
+  font-size: 15px;
 }
 
 .row .column {
@@ -229,7 +233,7 @@ hr {
 }
 
 #plans #top {
-	width: 679px;
+	width: 810px;
 	height: 85px;
 	background-color: #004;
 	color: #fff;
